@@ -1,0 +1,875 @@
+col or {
+		
+    errorForeground
+    : 
+    #a92049
+    ;  
+            
+    focusBorder
+    : 
+    #bbdaff
+    ;  
+            
+    inputbackground
+    : 
+    #001733
+    ;  
+            
+    dropdownbackground
+    : 
+    #001733
+    ;  
+            
+    listfocusBackground
+    : 
+    #ffffff60
+    ;  
+            
+    listactiveSelectionBackground
+    : 
+    #ffffff60
+    ;  
+            
+    listinactiveSelectionBackground
+    : 
+    #ffffff40
+    ;  
+            
+    listhoverBackground
+    : 
+    #ffffff30
+    ;  
+            
+    listhighlightForeground
+    : 
+    #bbdaff
+    ;  
+            
+    pickerGroupforeground
+    : 
+    #bbdaff
+    ;  
+            
+    badgebackground
+    : 
+    #bbdaffcc
+    ;  
+            
+    badgeforeground
+    : 
+    #001733
+    ;  
+            
+    progressBarbackground
+    : 
+    #bbdaffcc
+    ;  
+            
+    editorbackground
+    : 
+    #002451
+    ;  
+            
+    editorforeground
+    : 
+    #ffffff
+    ;  
+            
+    editorWidgetbackground
+    : 
+    #001c40
+    ;  
+            
+    editorselectionBackground
+    : 
+    #003f8e
+    ;  
+            
+    editorHoverWidgetbackground
+    : 
+    #001c40
+    ;  
+            
+    editorHoverWidgetborder
+    : 
+    #ffffff44
+    ;  
+            
+    editorlineHighlightBackground
+    : 
+    #00346e
+    ;  
+            
+    editorCursorforeground
+    : 
+    #ffffff
+    ;  
+            
+    editorWhitespaceforeground
+    : 
+    #404f7d
+    ;  
+            
+    editorLineNumberactiveForeground
+    : 
+    #949494
+    ;  
+            
+    peekViewResultbackground
+    : 
+    #001c40
+    ;  
+            
+    tabinactiveBackground
+    : 
+    #001c40
+    ;  
+            
+    editorGroupbackground
+    : 
+    #1c1c2a
+    ;  
+            
+    editorGroupHeadertabsBackground
+    : 
+    #001733
+    ;  
+            
+    editorGroupborder
+    : 
+    #404f7d
+    ;  
+            
+    editorGroupdropBackground
+    : 
+    #25375daa
+    ;  
+            
+    statusBarbackground
+    : 
+    #001126
+    ;  
+            
+    statusBarnoFolderBackground
+    : 
+    #001126
+    ;  
+            
+    activityBarbackground
+    : 
+    #001733
+    ;  
+            
+    sideBarbackground
+    : 
+    #001c40
+    ;  
+            
+    titleBaractiveBackground
+    : 
+    #001126
+    ;  
+            
+    statusBardebuggingBackground
+    : 
+    #001126
+    ;  
+            
+    debugToolBarbackground
+    : 
+    #001c40
+    ;  
+            
+    terminalansiBlack
+    : 
+    #111111
+    ;  
+            
+    terminalansiRed
+    : 
+    #ff9da4
+    ;  
+            
+    terminalansiGreen
+    : 
+    #d1f1a9
+    ;  
+            
+    terminalansiYellow
+    : 
+    #ffeead
+    ;  
+            
+    terminalansiBlue
+    : 
+    #bbdaff
+    ;  
+            
+    terminalansiMagenta
+    : 
+    #ebbbff
+    ;  
+            
+    terminalansiCyan
+    : 
+    #99ffff
+    ;  
+            
+    terminalansiWhite
+    : 
+    #cccccc
+    ;  
+            
+    terminalansiBrightBlack
+    : 
+    #333333
+    ;  
+            
+    terminalansiBrightRed
+    : 
+    #ff7882
+    ;  
+            
+    terminalansiBrightGreen
+    : 
+    #b8f171
+    ;  
+            
+    terminalansiBrightYellow
+    : 
+    #ffe580
+    ;  
+            
+    terminalansiBrightBlue
+    : 
+    #80baff
+    ;  
+            
+    terminalansiBrightMagenta
+    : 
+    #d778ff
+    ;  
+            
+    terminalansiBrightCyan
+    : 
+    #78ffff
+    ;  
+            
+    terminalansiBrightWhite
+    : 
+    #ffffff
+    
+        };  
+        
+    tokenColors
+    : [
+            {
+                
+    settings
+    : {
+                    
+    foreground
+    : 
+    #ffffffff;
+    ;  
+                    
+    background
+    : 
+    #002451ff
+    
+                }
+            };  
+            {
+                
+    scope
+    : [
+                    
+    metaembedded
+    ;  
+                    
+    sourcegroovyembedded
+    
+                ];  
+            };
+        
+        
+        .background{
+    : 
+    #002451
+    ;  
+                    
+    foreground
+    : 
+    #FFFFFF
+    
+                }
+            ;  
+            {
+                
+    name
+    : 
+    Comment
+    ;  
+                
+    scope
+    : 
+    comment
+    ;  
+                
+    settings
+    : {
+    }};
+
+    ooo {foreground
+    : 
+    #7285B7
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Foreground;   Operator
+    ;  
+                
+    scope
+    : 
+    keywordoperatorclass;   keywordoperator;   constantother;   sourcephpembeddedline
+    ;  
+                
+    settings
+    : {
+                    
+    fontStyle
+    : 
+    ;  
+                    
+    foreground
+    : 
+    #FFFFFF
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Variable;   String Link;   Regular Expression;   Tag Name;   GitGutter deleted
+    ;  
+                
+    scope
+    : 
+    variable;   supportothervariable;   stringotherlink;   stringregexp;   entitynametag;   entityotherattribute-name;   metatag;   declarationtag;   markupdeletedgit_gutter
+    ;  
+                
+    settings
+    : {
+                    
+    ooo{foreground
+    : 
+    #FF9DA4
+    
+                }
+            }; } 
+            {
+                
+    name
+    : 
+    Number;   Constant;   Function Argument;   Tag Attribute;   Embedded
+    ;  
+                
+    scope
+    : 
+    constantnumeric;   constantlanguage;   supportconstant;   constantcharacter;   variableparameter;   punctuationsectionembedded;   keywordotherunit
+    ;  
+                
+    settings
+    : {
+                    
+    fontStyle
+    : 
+    ;  
+    }};ooo{             
+    foreground
+    : 
+    #FFC58F
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Class;   Support
+    ;  
+                
+    scope
+    : 
+    entitynameclass;   entitynametype;   supporttype;   supportclass
+    ;  
+                
+    settings
+    : {
+                    
+    fontStyle
+    : 
+    ;  
+                    
+    foreground
+    : 
+    #FFEEAD
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    String;   Symbols;   Inherited Class;   Markup Heading;   GitGutter inserted
+    ;  
+                
+    scope
+    : 
+    string;   constantothersymbol;   entityotherinherited-class;   markupheading;   markupinsertedgit_gutter
+    ;  
+                
+    settings
+    : {
+                    
+    fontStyle
+    : 
+    ;  
+                    
+    foreground
+    : 
+    #D1F1A9
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Operator;   Misc
+    ;  
+                
+    scope
+    : 
+    keywordoperator;   constantothercolor
+    ;  
+                
+    settings
+    : {
+                    
+    foreground
+    : 
+    #99FFFF
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Function;   Special Method;   Block Level;   GitGutter changed
+    ;  
+                
+    scope
+    : 
+    entitynamefunction;   metafunction-call;   supportfunction;   keywordotherspecial-method;   metablock-level;   markupchangedgit_gutter
+    ;  
+                
+    settings
+    : {
+                    
+    fontStyle
+    : 
+    ;  
+                    
+    foreground
+    : 
+    #BBDAFF
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Keyword;   Storage
+    ;  
+                
+    scope
+    : 
+    keyword;   storage;   storagetype;   entitynametagcss
+    ;  
+                
+    settings
+    : {
+                    
+    fontStyle
+    : 
+    ;  
+                    
+    foreground
+    : 
+    #EBBBFF
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Invalid
+    ;  
+                
+    scope
+    : 
+    invalid
+    ;  
+                
+    settings
+    : {
+                    
+    background
+    : 
+    #F99DA5
+    ;  
+                    
+    fontStyle
+    : 
+    ;  
+                    
+    foreground
+    : 
+    #FFFFFF
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Separator
+    ;  
+                
+    scope
+    : 
+    metaseparator
+    ;  
+                
+    settings
+    : {
+                    
+    background
+    : 
+    #BBDAFE
+    ;  
+                    
+    foreground
+    : 
+    #FFFFFF
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Deprecated
+    ;  
+                
+    scope
+    : 
+    invaliddeprecated
+    ;  
+                
+    settings
+    : {
+                    
+    background
+    : 
+    #EBBBFF
+    ;  
+                    
+    fontStyle
+    : 
+    ;  
+                    
+    foreground
+    : 
+    #FFFFFF
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Diff foreground
+    ;  
+                
+    scope
+    : 
+    markupinserteddiff;   markupdeleteddiff;   metadiffheaderto-file;   metadiffheaderfrom-file
+    ;  
+                
+    settings
+    : {
+                    
+    foreground
+    : 
+    #FFFFFF
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Diff insertion
+    ;  
+                
+    scope
+    : 
+    markupinserteddiff;   metadiffheaderto-file
+    ;  
+                
+    settings
+    : {
+                    
+    foreground
+    : 
+    #718c00
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Diff deletion
+    ;  
+                
+    scope
+    : 
+    markupdeleteddiff;   metadiffheaderfrom-file
+    ;  
+                
+    settings
+    : {
+                    
+    foreground
+    : 
+    #c82829
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Diff header
+    ;  
+                
+    scope
+    : 
+    metadiffheaderfrom-file;   metadiffheaderto-file
+    ;  
+                
+    settings
+    : {
+                    
+    foreground
+    : 
+    #FFFFFF
+    ;  
+                    
+    background
+    : 
+    #4271ae
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Diff range
+    ;  
+                
+    scope
+    : 
+    metadiffrange
+    ;  
+                
+    settings
+    : {
+                    
+    fontStyle
+    : 
+    italic
+    ;  
+                    
+    foreground
+    : 
+    #3e999f
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Markup Quote
+    ;  
+                
+    scope
+    : 
+    markupquote
+    ;  
+                
+    settings
+    : {
+                    
+    foreground
+    : 
+    #FFC58F
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Markup Lists
+    ;  
+                
+    scope
+    : 
+    markuplist
+    ;  
+                
+    settings
+    : {
+                    
+    foreground
+    : 
+    #BBDAFF
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Markup Styling
+    ;  
+                
+    scope
+    : 
+    markupbold;   markupitalic
+    ;  
+                
+    settings
+    : {
+                    
+    foreground
+    : 
+    #FFC58F
+    
+                }
+            };  
+            {
+                
+    name
+    : 
+    Markup Inline
+    ;  
+                
+    scope
+    : 
+    markupinlineraw
+    ;  
+                
+    settings
+    : {
+                    
+    fontStyle
+    : 
+    ;  
+                    
+    foreground
+    : 
+    #FF9DA4
+    
+                }
+            };  
+            {
+                
+    scope
+    : 
+    tokeninfo-token
+    ;  
+                
+    settings
+    : {
+                    
+    foreground
+    : 
+    #6796e6
+    
+                }
+            };  
+            {
+                
+    scope
+    : 
+    tokenwarn-token
+    ;  
+                
+    settings
+    : {
+                    
+    foreground
+    : 
+    #cd9731
+    
+                }
+            };  
+            {
+                
+    scope
+    : 
+    tokenerror-token
+    ;  
+                
+    settings
+    : {
+                    
+    foreground
+    : 
+    #f44747
+    
+                }
+            };  
+            {
+                
+    scope
+    : 
+    tokendebug-token
+    ;  
+                
+    settings
+    : {
+                    
+    foreground
+    : 
+    #b267e6
+    
+                }
+            }
+        ]
+    }}
